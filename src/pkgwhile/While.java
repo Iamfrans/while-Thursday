@@ -19,10 +19,11 @@ public class While {
         int num = dato.nextInt();
         int suma = 0;  
         int i = 0;
-        while (i<=num){   
-            suma = suma + i;
-            i = i + 1;  
-        }
+        while (i<=num){         
+                suma = suma + i;
+                i = i + 2;
+           System.out.println("los pares son: " +suma);
+        }   
         System.out.println("la suma es " +suma);
     }
      

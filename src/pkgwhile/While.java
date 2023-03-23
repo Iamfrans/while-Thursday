@@ -18,6 +18,9 @@ public class While {
          System.out.println("ingrese un valo: ");
         int num = dato.nextInt();
         int suma = 0  
+        while (i<=num)   
+            suma = suma + i;
+            i = i + 1;    
     }
-    
+      System.out.println("la suma es " +suma);
 }

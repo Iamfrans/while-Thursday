@@ -17,10 +17,13 @@ public class While {
         Scanner dato = new Scanner (System.in);
          System.out.println("ingrese un valo: ");
         int num = dato.nextInt();
-        int suma = 0  
-        while (i<=num)   
+        int suma = 0;  
+        int i = 0;
+        while (i<=num){   
             suma = suma + i;
-            i = i + 1;    
+            i = i + 1;  
+        }
+        System.out.println("la suma es " +suma);
     }
-      System.out.println("la suma es " +suma);
+     
 }

@@ -22,7 +22,7 @@ public class While {
         while (i<=num){         
                 suma = suma + i;
                 i = i + 2;
-           System.out.println("los pares son: " +suma);
+           System.out.println("los pares son: " +(i-2));
         }   
         System.out.println("la suma es " +suma);
     }
